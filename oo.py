@@ -19,6 +19,7 @@
 
 5. How is a class attribute different than an instance attribute?
    Give an example of when you might use each.
+   The class attribute is a piece of data on the class itself. When this is asked on an instance, it can be found on the class. An instance attribute is set directly on the object.
 
 
 """
@@ -56,6 +57,7 @@ class User(object):
             print("Invalid password")
         else:
             self.password = new_password
+
 
 
 # 4. Build a Library

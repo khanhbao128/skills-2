@@ -86,9 +86,9 @@ def print_melon_at_price(price):
         None found
     """
 
-    melon_dict = {"Honeydew": 2.50, "Cantaloupe": 2.50, "Watermelon": 2.95, "Musk": 3.25, "Crenshaw": 3.25, "Christmas": 14.25}
+    # melon_dict = {"Honeydew": 2.50, "Cantaloupe": 2.50, "Watermelon": 2.95, "Musk": 3.25, "Crenshaw": 3.25, "Christmas": 14.25}
 
-    melon_at_price = []
+    # melon_at_price = []
 
     # for key, value in melon_dict.items():
     #     if price == value:
@@ -224,12 +224,24 @@ def kids_game(names):
     a dictionary (with the super-fast lookup they provide) can help;
     good solutions here will definitely require a dictionary.
     """
-    # results = []
 
-    # for i, name in enumerate(names):
-    #     if name[-1] == names[i][0]:
-    #         results.append(names[i])
-    # return (results) #unexpected results
+
+    # results = []
+    # #add first word in names to an empty list
+    # results.append(names[0])
+
+    # #loop over each word in names
+    # i = 0
+    # for name in names:
+    # #find next word whose first letter is the last letter of the previous word added to the list
+
+    #     for letter in name:
+    #         if name.startswith(letter) == results[i][-1]:
+    #             results.append(name)
+    #             i += 1
+    # #only one item added to the list??
+    # return (results)
+
 #test:
 # given_words = ["bagon", "baltoy", "yamask", "starly",
 #                "nosepass", "kalob", "nicky", "booger"]
